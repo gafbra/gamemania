@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@charset "UTF-8";
+
+/*FONTES*/
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(/assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(/assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+/* Reset de página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat-Regular';
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: #BFD1E5;
+
+}
+
+.container {
+    padding: 0;
+}
+

@@ -1,0 +1,47 @@
+<header class="container-fluid">
+    <div class="container header-flex">
+
+
+      <div class="header-left col-3">
+        <a routerLink=""><img class="logoGameMania" src="/assets/imagens/logogame.png" alt="Logo Game Mania"></a>
+      </div>
+
+      <div class="header-left-center col-4">
+        <div class="pesquisa">
+          <input class="barraPesquisa" type="search" placeholder="Pesquisar..." size="20">
+          <a href="#">
+            <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+          </a>
+        </div>
+        
+      </div>
+
+      <div class="header-right-center col-4">
+        <button class="btn btn-outline-primary btn-sm btn-cadastre"><b>Cadastre-se</b></button>
+        <a routerLink="/login" class="btn btn-primary btn-sm"><b>Login</b></a>
+      </div>
+
+      <div class="header-right col-1">
+        <a class="btn-carrinho" href="#">
+          <fa-icon [icon]="faCartShopping"></fa-icon>
+        </a>
+      </div>
+
+      <div id="abreFecha" onclick="abreFechaMenu();" class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="container-fluid backNavBar" >
+    <nav class="container  navbar">
+      <a routerLink="/games" href="#">Games</a>
+      <a class="nava" href="#">PC Gamer</a>
+      <a class="nava" href="#">Computador</a>
+      <a class="nava" href="#">Notebook</a>
+      <a class="nava" href="#">Celular</a>
+    </nav>
+  </div>

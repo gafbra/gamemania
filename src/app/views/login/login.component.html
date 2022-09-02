@@ -1,0 +1,32 @@
+<div class="bodylogin">
+    <div class="container">
+        <div class="cabecalho">
+            <a routerLink=""><fa-icon [icon]="faArrowLeft"></fa-icon></a>
+        </div>
+        <form (ngSubmit)="capturarDados()">
+            <div class="linha voltar">
+                <fa-icon [icon]="faUser"></fa-icon>
+                <input type="number" id="cpf" placeholder="Digite seu CPF" name="cpf" [(ngModel)]="userModel.cpf">
+            </div>
+    
+            <div class="linha">
+                <fa-icon [icon]="faEnvelope"></fa-icon>
+                <input type="email" id="usuario" placeholder="Seu e-mail" name="usuario" [(ngModel)]="userModel.email">
+            </div>
+    
+            <div class="linha">
+                <fa-icon [icon]="faLock"></fa-icon>
+                <input type="password" id="senha" placeholder="******" name="senha" [(ngModel)]="userModel.senha">
+            </div>
+    
+    
+            <p class="mensagem"></p>
+    
+    
+    
+            <button class="signin">Login</button>
+    
+        </form>
+    
+    </div>
+</div>

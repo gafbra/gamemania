@@ -1,0 +1,32 @@
+.card-background {
+    background-color: #BFD1E5;
+}
+
+.card-flex {
+    display: flex;
+
+}
+
+.card {
+    background-color: white;
+    margin: 10px;
+}
+
+.card-img {
+    width: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn-comprar {
+    border: none;
+    padding: 6px 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
